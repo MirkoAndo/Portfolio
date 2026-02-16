@@ -84,7 +84,7 @@
       <div class="container about-grid">
         <div class="about-image-wrap">
           <img
-            src="./Avatar.jpeg"
+            src="src/profile/Avatar.jpeg"
             alt="Avatar professionale"
             class="about-image"
           />
@@ -102,7 +102,7 @@
              <h4>Principi fondamentali:</h4>
              <ul style="list-style: inside; color: var(--text-muted);">
                 <li>Disciplina prima della motivazione</li>
-                <li>Chiarezza prima del rumore</li>
+                <li>Progetto prima di agire</li>
                 <li>Responsabilità prima delle scorciatoie</li>
              </ul>
           </div>
@@ -114,11 +114,11 @@
             </article>
             <article class="stat-box">
               <h4>Inglese</h4>
-              <p>B2</p>
+              <p>B2 <br> in corso</p>
             </article>
             <article class="stat-box">
               <h4>Spagnolo</h4>
-              <p>A2</p>
+              <p>A1 <br> intelligibilità </p>
             </article>
           </div>
         </div>
@@ -162,35 +162,55 @@
       <div class="container">
         <p class="section-kicker">STRUMENTI</p>
         <h3>Competenze tecniche</h3>
-      </div>
+        <div class="skills-progress" aria-label="Livello competenze di programmazione">
+          <article class="skill-box">
+            <span class="title">Python</span>
+            <div class="skill-bar">
+              <span class="skill-per w90"><span class="tooltip">90%</span></span>
+            </div>
+          </article>
 
-      <div class="marquee">
-        <div class="marquee-track">
-          <span class="skill-pill">Python</span>
-          <span class="skill-pill">C / C++</span>
-          <span class="skill-pill">SQL</span>
-          <span class="skill-pill">Java</span>
-          <span class="skill-pill">Flask</span>
-          <span class="skill-pill">Pandas</span>
-          <span class="skill-pill">NumPy</span>
-          <span class="skill-pill">Linux</span>
-          <span class="skill-pill">Bash</span>
-          <span class="skill-pill">Git</span>
-          <span class="skill-pill">MySQL</span>
-          <span class="skill-pill">Cybersecurity</span>
+          <article class="skill-box">
+            <span class="title">PHP</span>
+            <div class="skill-bar">
+              <span class="skill-per w40"><span class="tooltip">40%</span></span>
+            </div>
+          </article>
 
-          <span class="skill-pill">Python</span>
-          <span class="skill-pill">C / C++</span>
-          <span class="skill-pill">SQL</span>
-          <span class="skill-pill">Java</span>
-          <span class="skill-pill">Flask</span>
-          <span class="skill-pill">Pandas</span>
-          <span class="skill-pill">NumPy</span>
-          <span class="skill-pill">Linux</span>
-          <span class="skill-pill">Bash</span>
-          <span class="skill-pill">Git</span>
-          <span class="skill-pill">MySQL</span>
-          <span class="skill-pill">Cybersecurity</span>
+          <article class="skill-box">
+            <span class="title">Java</span>
+            <div class="skill-bar">
+              <span class="skill-per w75"><span class="tooltip">75%</span></span>
+            </div>
+          </article>
+
+          <article class="skill-box">
+            <span class="title">C / C++</span>
+            <div class="skill-bar">
+              <span class="skill-per w70"><span class="tooltip">70%</span></span>
+            </div>
+          </article>
+
+          <article class="skill-box">
+            <span class="title">SQL</span>
+            <div class="skill-bar">
+              <span class="skill-per w30"><span class="tooltip">30%</span></span>
+            </div>
+          </article>
+
+          <article class="skill-box">
+            <span class="title">HTML / CSS</span>
+            <div class="skill-bar">
+              <span class="skill-per w80"><span class="tooltip">80%</span></span>
+            </div>
+          </article>
+
+          <article class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+              <span class="skill-per w35"><span class="tooltip">35%</span></span>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -203,57 +223,87 @@
         <div class="projects-grid">
           <article class="project-card">
             <div class="project-image">
-              <span>🐍</span>
+              <span><img src="src/vetrina/English-Legacy-QuizFull.png" alt="Logo Quiz Inglese"></span>
             </div>
             <div class="project-content">
-              <h4>Automazione Backend</h4>
-              <p>Script Python per attività di data processing e automazione di sistema.</p>
+              <h4>Quiz Inglese - Interattivo Web</h4>
+              <p>Una piattaforma interattiva di quiz in lingua inglese basata sulla storia della Scuola Marconi-Mangano e sulle passate presentazioni educative. 
+                Progettato per migliorare le competenze linguistiche richiesto nel progetto conoscitivo Erasmus 2025/2026..</p>
               <div class="tags">
-                <span>Python</span>
-                <span>Bash</span>
-                <span>Linux</span>
+                <span>JavaScript</span>
+                <span>Html</span>
+                <span>Css</span>
               </div>
               <div class="project-links">
-                <a href="#" aria-label="GitHub Repository">GitHub</a>
+                <a
+                  href="https://mirkoando.github.io/English-Legacy-Quiz/"
+                  class="project-link-btn"
+                  aria-disabled="true"
+                  tabindex="-1"
+                >
+                  <icon>🌐</icon> LIVE DEMO
+                </a>
+                <a
+                  href="https://github.com/MirkoAndo/English-Legacy-Quiz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  aria-label="Apri codice sorgente su GitHub"
+                >
+                  <icon>💻</icon> SOURCE
+                </a>
               </div>
-            </div>
           </article>
-
           <article class="project-card">
             <div class="project-image">
-              <span>📊</span>
+              <span><img src="src/vetrina/marconi-cortex-logoFull.png" alt="Logo Marconi-Cortex"></span>
             </div>
             <div class="project-content">
-              <h4>Strumenti di Data Analysis</h4>
-              <p>Progetti che utilizzano Pandas e NumPy per la manipolazione strutturata dei dati.</p>
+              <h4>Marconi-Cortex</h4>
+              <p>Un gestionale scolastico modulare, pensato per supportare ogni area operativa di un istituto formativo. 
+                Nasce dall'osservazione quotidiana di problemi reali: strumenti frammentati, flussi manuali, 
+                dati dispersi e poca visibilità..</p>
               <div class="tags">
                 <span>Python</span>
-                <span>Pandas</span>
-                <span>NumPy</span>
+                <span>Html</span>
+                <span>Css</span>
+                <span>JavaScript</span>
               </div>
-              <div class="project-links">
-                <a href="#" aria-label="GitHub Repository">GitHub</a>
+              <div class="project-links" style="margin: 40px 0 0 0;">
+                <a
+                  href="https://mirkoando.github.io/Marconi-Cortex/"
+                  class="project-link-btn is-unavailable"
+                  aria-disabled="true"
+                  tabindex="-1"
+                >
+                  <icon>🌐</icon> LIVE DEMO
+                </a>
+                <a
+                  href="https://github.com/MirkoAndo/Marconi-Cortex"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn is-unavailable"
+                  aria-label="Apri codice sorgente su GitHub"
+                >
+                  <icon>💻</icon> SOURCE
+                </a>
               </div>
             </div>
           </article>
+        </div>
 
-          <article class="project-card">
-            <div class="project-image">
-              <span>🔒</span>
-            </div>
-            <div class="project-content">
-              <h4>Laboratori di Security</h4>
-              <p>Difesa di rete, endpoint security e pratiche di hardening dei sistemi.</p>
-              <div class="tags">
-                <span>Cisco</span>
-                <span>Linux</span>
-                <span>Networking</span>
-              </div>
-              <div class="project-links">
-                <a href="#" aria-label="GitHub Repository">GitHub</a>
-              </div>
-            </div>
-          </article>
+
+        
+        <div class="hero-actions" style="justify-content: center; margin-top: 2rem;">
+          <a
+            href="https://github.com/mirko-ando?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-solid"
+            aria-label="Esplora archivio GitHub"
+          >
+            Esplora archivio
+          </a>
         </div>
       </div>
     </section>
@@ -277,31 +327,23 @@
           </div>
         </div>
 
-        <form class="contact-form" action="#" method="post">
-          <label>
-            Nome
-            <input type="text" name="name" placeholder="Il tuo nome" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="La tua email" required />
-          </label>
-          <label>
-            Oggetto
-            <input type="text" name="subject" placeholder="Oggetto" required />
-          </label>
-          <label>
-            Messaggio
-            <textarea name="message" rows="5" placeholder="Scrivi il tuo messaggio..." required></textarea>
-          </label>
-          <button type="submit" class="btn btn-solid btn-full">Invia messaggio</button>
-        </form>
+        <aside class="contact-visual" aria-label="Illustrazione tecnologia e sviluppo">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80"
+            alt="Postazione di sviluppo software con interfaccia digitale futuristica"
+            loading="lazy"
+          />
+          <div class="contact-visual-overlay">
+            <p class="contact-visual-kicker">PROGRAMMING & SOFTWARE</p>
+            <h4>DEVELOPMENT</h4>
+          </div>
+        </aside>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2024 Mirko Andò. Creato con disciplina & codice.</p>
+    <p>©Copyright (c) 2026 Mirko Andò</p>
   </footer>
 
   <script src="script.js"></script>
