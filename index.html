@@ -1,11 +1,11 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mirko Andò | Backend & Security Portfolio</title>
-  <meta name="description" content="Portfolio of Mirko Andò - Computer Science Student focused on backend systems, automation, and cybersecurity." />
+  <title>Mirko Andò | Portfolio Backend & Security</title>
+  <meta name="description" content="Portfolio di Mirko Andò - Studente di Informatica focalizzato su sistemi backend, automazione e cybersecurity." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -16,33 +16,33 @@
 </head>
 <body>
   <header class="header" id="home">
-    <nav class="navbar container" aria-label="Main Navigation">
+    <nav class="navbar container" aria-label="Navigazione principale">
       <a href="#home" class="logo">Mirko Andò</a>
 
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="mobile-menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
       <ul class="nav-links" id="desktop-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Inizio</a></li>
+        <li><a href="#about">Chi sono</a></li>
+        <li><a href="#skills">Competenze</a></li>
+        <li><a href="#projects">Progetti</a></li>
+        <li><a href="#contact">Contatti</a></li>
       </ul>
 
-      <a href="#contact" class="btn btn-outline nav-cta">Get in Touch</a>
+      <a href="#contact" class="btn btn-outline nav-cta">Contattami</a>
     </nav>
 
     <div class="mobile-menu" id="mobile-menu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      <a href="#home">Inizio</a>
+      <a href="#about">Chi sono</a>
+      <a href="#skills">Competenze</a>
+      <a href="#projects">Progetti</a>
+      <a href="#contact">Contatti</a>
+      <a href="#contact" class="btn btn-outline">Contattami</a>
     </div>
   </header>
 
@@ -50,30 +50,32 @@
     <section class="hero section reveal">
       <div class="container hero-grid">
         <div class="hero-content">
-          <p class="section-kicker">WELCOME TO MY SYSTEM</p>
-          <h1>Discipline & Backend Stability</h1>
+          <p class="section-kicker">BENVENUTO NEL MIO SISTEMA</p>
+          <h1>Disciplina & Stabilità Backend</h1>
           <h2><span id="typing"></span><span class="cursor">|</span></h2>
           <p>
-            Computer Science student focused on building robust backend systems, automation, and data processing with a defensive security mindset.
+            Studente di Informatica focalizzato sulla costruzione di sistemi backend robusti, automazione e data processing con una mentalità di security difensiva.
           </p>
           <div class="hero-actions">
-            <a href="#contact" class="btn btn-solid">Contact Me</a>
-            <a href="https://www.credly.com/users/mirko-ando" target="_blank" class="btn btn-outline">My Certifications</a>
+            <a href="#contact" class="btn btn-solid">Contattami</a>
+            <a href="https://www.credly.com/users/mirko-ando" target="_blank" class="btn btn-outline">Le mie certificazioni</a>
           </div>
         </div>
 
-        <aside class="code-card" aria-label="Code preview card">
+        <aside class="code-card" aria-label="Anteprima codice">
           <div class="code-card__top">
             <span class="dot red"></span>
             <span class="dot yellow"></span>
             <span class="dot green"></span>
           </div>
-          <pre class="code-card__body"><code><span class="token-keyword">const</span> <span class="token-var">developer</span> <span class="token-op">=</span> {
-  <span class="token-prop">name</span>: <span class="token-string">"Mirko Andò"</span>,
-  <span class="token-prop">role</span>: <span class="token-string">"CS Student"</span>,
-  <span class="token-prop">focus</span>: [<span class="token-string">"Backend"</span>, <span class="token-string">"Automation"</span>],
-  <span class="token-prop">disciplined</span>: <span class="token-boolean">true</span>
-};</code></pre>
+    <pre class="code-card__body"><code><span class="token-keyword">const</span> <span class="token-var">developer</span> <span class="token-op">=</span> {
+      <span class="token-prop">name</span>: <span class="token-string">"Mirko Andò"</span>,
+      <span class="token-prop">role</span>: <span class="token-string">"Studente IT"</span>,
+      <span class="token-prop">focus</span>: <span class="token-string">'Padronanza Fullstack'</span>
+      <span class="token-prop">skills</span>: [<span class="token-string">"Python", "C / C++","SQL","Java",
+               "Html / CSS","JavaScript", "Php"</span>]
+    };</code>
+</pre>
         </aside>
       </div>
     </section>
@@ -82,40 +84,40 @@
       <div class="container about-grid">
         <div class="about-image-wrap">
           <img
-            src="https://avatars.githubusercontent.com/u/99548205?v=4&size=64"
-            alt="Professional Avatar"
+            src="./Avatar.jpeg"
+            alt="Avatar professionale"
             class="about-image"
           />
         </div>
         <div class="about-content">
-          <p class="section-kicker">PROFILE</p>
-          <h3>About Me</h3>
+          <p class="section-kicker">PROFILO</p>
+          <h3>Chi sono</h3>
           <p>
-            I adhere to a structured, disciplined approach to software development. 
-            I value <strong>consistency, operational autonomy, and clarity</strong>—in code as in decision-making.
-            Currently improving code structure and reliability while strengthening my technical English.
+            Seguo un approccio strutturato e disciplinato allo sviluppo software.
+            Valorizzo <strong>coerenza, autonomia operativa e chiarezza</strong>—nel codice come nelle decisioni.
+            Attualmente sto migliorando struttura e affidabilità del codice, rafforzando allo stesso tempo il mio inglese tecnico.
           </p>
           
           <div style="margin-top: 1rem;">
-             <h4>Core Principles:</h4>
+             <h4>Principi fondamentali:</h4>
              <ul style="list-style: inside; color: var(--text-muted);">
-                <li>Discipline over motivation</li>
-                <li>Clarity over noise</li>
-                <li>Responsibility over shortcuts</li>
+                <li>Disciplina prima della motivazione</li>
+                <li>Chiarezza prima del rumore</li>
+                <li>Responsabilità prima delle scorciatoie</li>
              </ul>
           </div>
 
           <div class="stats">
             <article class="stat-box">
-              <h4>Italian</h4>
-              <p>Native (C2)</p>
+              <h4>Italiano</h4>
+              <p>Madrelingua (C2)</p>
             </article>
             <article class="stat-box">
-              <h4>English</h4>
+              <h4>Inglese</h4>
               <p>B2</p>
             </article>
             <article class="stat-box">
-              <h4>Spanish</h4>
+              <h4>Spagnolo</h4>
               <p>A2</p>
             </article>
           </div>
@@ -125,30 +127,30 @@
 
     <section class="experience section reveal" id="experience">
       <div class="container">
-        <p class="section-kicker">TIMELINE</p>
-        <h3>Education & Path</h3>
+        <p class="section-kicker">PERCORSO</p>
+        <h3>Formazione & Percorso</h3>
 
         <div class="timeline">
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-card">
               <h4>2021 - 2027</h4>
-              <p><strong>IT Technical Institute – Computer Science</strong><br>Marconi–Mangano, Catania</p>
+              <p><strong>Istituto Tecnico Informatico – Informatica</strong><br>Marconi–Mangano, Catania</p>
             </div>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-card">
-              <h4>Current Focus</h4>
-              <p>Building solid backend projects, improving code readability, and strengthening technical English (Targeting C1).</p>
+              <h4>Focus attuale</h4>
+              <p>Costruire progetti backend solidi, migliorare la leggibilità del codice e rafforzare l'inglese tecnico (obiettivo C1).</p>
             </div>
           </article>
 
            <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-card">
-              <h4>Certifications</h4>
+              <h4>Certificazioni</h4>
               <p style="font-size: 0.9rem;">Python Essentials 1 & 2, Data Analytics Essentials, Cisco Cybersecurity Path (Multiple), Networking Basics.</p>
             </div>
           </article>
@@ -158,8 +160,8 @@
 
     <section class="skills section reveal" id="skills">
       <div class="container">
-        <p class="section-kicker">TOOLKIT</p>
-        <h3>Technical Skills</h3>
+        <p class="section-kicker">STRUMENTI</p>
+        <h3>Competenze tecniche</h3>
       </div>
 
       <div class="marquee">
@@ -195,8 +197,8 @@
 
     <section class="projects section reveal" id="projects">
       <div class="container">
-        <p class="section-kicker">SHOWCASE</p>
-        <h3>Projects</h3>
+        <p class="section-kicker">VETRINA</p>
+        <h3>Progetti</h3>
 
         <div class="projects-grid">
           <article class="project-card">
@@ -204,8 +206,8 @@
               <span>🐍</span>
             </div>
             <div class="project-content">
-              <h4>Backend Automation</h4>
-              <p>Python scripts for data processing and system automation tasks.</p>
+              <h4>Automazione Backend</h4>
+              <p>Script Python per attività di data processing e automazione di sistema.</p>
               <div class="tags">
                 <span>Python</span>
                 <span>Bash</span>
@@ -222,8 +224,8 @@
               <span>📊</span>
             </div>
             <div class="project-content">
-              <h4>Data Analysis Tools</h4>
-              <p>Projects utilizing Pandas and NumPy for structured data manipulation.</p>
+              <h4>Strumenti di Data Analysis</h4>
+              <p>Progetti che utilizzano Pandas e NumPy per la manipolazione strutturata dei dati.</p>
               <div class="tags">
                 <span>Python</span>
                 <span>Pandas</span>
@@ -240,8 +242,8 @@
               <span>🔒</span>
             </div>
             <div class="project-content">
-              <h4>Security Labs</h4>
-              <p>Network defense, endpoint security, and system hardening practices.</p>
+              <h4>Laboratori di Security</h4>
+              <p>Difesa di rete, endpoint security e pratiche di hardening dei sistemi.</p>
               <div class="tags">
                 <span>Cisco</span>
                 <span>Linux</span>
@@ -259,14 +261,14 @@
     <section class="contact section reveal" id="contact">
       <div class="container contact-grid">
         <div class="contact-info">
-          <p class="section-kicker">CONNECT</p>
-          <h3>Let’s Build Systems</h3>
-          <p>Have an idea or a project? I aim to build systems that remain stable under pressure.</p>
+          <p class="section-kicker">CONTATTI</p>
+          <h3>Costruiamo sistemi</h3>
+          <p>Hai un'idea o un progetto? Il mio obiettivo è costruire sistemi che restino stabili sotto pressione.</p>
 
           <ul>
             <li><strong>Email:</strong> mirko.ando2008@gmail.com</li>
-            <li><strong>Phone:</strong> +39 3296318067</li>
-            <li><strong>Certifications:</strong> <a href="https://www.credly.com/users/mirko-ando" target="_blank" style="color:var(--primary);">Credly Profile</a></li>
+            <li><strong>Telefono:</strong> +39 3296318067</li>
+            <li><strong>Certificazioni:</strong> <a href="https://www.credly.com/users/mirko-ando" target="_blank" style="color:var(--primary);">Profilo Credly</a></li>
           </ul>
 
           <div class="socials">
@@ -277,29 +279,29 @@
 
         <form class="contact-form" action="#" method="post">
           <label>
-            Name
-            <input type="text" name="name" placeholder="Your Name" required />
+            Nome
+            <input type="text" name="name" placeholder="Il tuo nome" required />
           </label>
           <label>
             Email
-            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="email" name="email" placeholder="La tua email" required />
           </label>
           <label>
-            Subject
-            <input type="text" name="subject" placeholder="Subject" required />
+            Oggetto
+            <input type="text" name="subject" placeholder="Oggetto" required />
           </label>
           <label>
-            Message
-            <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            Messaggio
+            <textarea name="message" rows="5" placeholder="Scrivi il tuo messaggio..." required></textarea>
           </label>
-          <button type="submit" class="btn btn-solid btn-full">Send Message</button>
+          <button type="submit" class="btn btn-solid btn-full">Invia messaggio</button>
         </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2024 Mirko Andò. Built with discipline & code.</p>
+    <p>© 2024 Mirko Andò. Creato con disciplina & codice.</p>
   </footer>
 
   <script src="script.js"></script>

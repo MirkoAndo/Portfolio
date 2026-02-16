@@ -44,7 +44,7 @@ navLinks.forEach((link) => {
 
 // Typing effect in hero
 const typingElement = document.getElementById("typing");
-const textToType = "I am a Full Stack Developer";
+const textToType = "Sono un Software Engineer.";
 let charIndex = 0;
 let isDeleting = false;
 
