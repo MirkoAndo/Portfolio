@@ -363,6 +363,31 @@ h3 {
 }
 
 /* Experience */
+.soft-skills-grid {
+  margin: 1.4rem 0 2.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.soft-skill-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+
+.soft-skill-card h4 {
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+}
+
+.soft-skill-card p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+}
+
 .timeline {
   position: relative;
   margin-top: 2rem;
@@ -815,6 +840,10 @@ h3 {
 @media (max-width: 680px) {
   .section {
     padding: 90px 0;
+  }
+
+  .soft-skills-grid {
+    grid-template-columns: 1fr;
   }
 
   .stats {
