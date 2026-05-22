@@ -22,11 +22,12 @@ Il sito raccoglie:
 - 📬 contatti professionali
 
 ---
-### © 2026 Mirko Andò
- ---
- ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML5
 - CSS3
 - JavaScript
+
+---
+### © 2026 Mirko Andò
