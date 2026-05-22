@@ -21,16 +21,12 @@ Il sito raccoglie:
 - 🚀 progetti attuali e in sviluppo
 - 📬 contatti professionali
 
-L'approccio è orientato a **stabilità, ordine, manutenzione del codice e crescita continua**.
-
 ---
+### © 2026 Mirko Andò
+ ---
+ ## 🛠️ Tech Stack
 
-## 🧠 Profile
-
-Sono uno studente di Informatica presso l'**ITI Marconi–Mangano di Catania**, con focus su:
-
-- Backend Development
-- Automation & Data Processing
-- Linux & Systems Administration
-- Networking & Cybersecurity
-- Software
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
