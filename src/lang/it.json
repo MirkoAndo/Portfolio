@@ -54,31 +54,31 @@
     "intro": "Frequento l'Istituto Tecnico Industriale Marconi-Mangano di Catania, indirizzo Informatica e Telecomunicazioni - articolazione Informatica. Questo percorso mi sta formando con un approccio tecnico avanzato, dove teoria, laboratorio e pratica continua lavorano insieme in modo molto vicino ai contesti professionali dell'IT.",
     "trainingTitle": "Percorso formativo",
     "trainingDescription": "Durante il diploma ho consolidato competenze su sviluppo software, sistemi e infrastrutture digitali.",
-    "trainingItems": {
-      "one": "Programmazione: Python, Java, C/C++ e sviluppo web",
-      "two": "Progettazione e gestione di database relazionali",
-      "three": "Sistemi operativi: Windows e Linux",
-      "four": "Reti, protocolli, sicurezza e configurazione apparati",
-      "five": "Embedded systems e architettura dei calcolatori",
-      "six": "Ciclo di vita del software: analisi, sviluppo e test"
-    },
+    "trainingItems": [
+      "Programmazione: Python, Java, C/C++ e sviluppo web",
+      "Progettazione e gestione di database relazionali",
+      "Sistemi operativi: Windows e Linux",
+      "Reti, protocolli, sicurezza e configurazione apparati",
+      "Embedded systems e architettura dei calcolatori",
+      "Ciclo di vita del software: analisi, sviluppo e test"
+    ],
     "scholarshipTitle": "Borse di studio per merito",
     "scholarshipDescription": "In tutti gli anni del triennio scolastico ho ottenuto la borsa di studio per merito, riconoscimento assegnato agli studenti con risultati costanti e comportamento responsabile.",
-    "scholarshipItems": {
-      "one": "Rendimento continuo durante l'anno",
-      "two": "Media scolastica elevata",
-      "three": "Comportamento corretto e professionale",
-      "four": "Impegno in attivita didattiche e progetti extra"
-    },
+    "scholarshipItems": [
+      "Rendimento continuo durante l'anno",
+      "Media scolastica elevata",
+      "Comportamento corretto e professionale",
+      "Impegno in attivita didattiche e progetti extra"
+    ],
     "outcomesTitle": "Competenze in uscita del diploma",
-    "outcomesTags": {
-      "one": "Sviluppo software e applicazioni",
-      "two": "Progettazione sistemi informativi e basi dati",
-      "three": "Gestione reti, server e ambienti Linux",
-      "four": "Sicurezza informatica di base",
-      "five": "Automazione, manutenzione e ottimizzazione",
-      "six": "Lavoro in team tecnico e delivery end-to-end"
-    },
+    "outcomesTags": [
+      "Sviluppo software e applicazioni",
+      "Progettazione sistemi informativi e basi dati",
+      "Gestione reti, server e ambienti Linux",
+      "Sicurezza informatica di base",
+      "Automazione, manutenzione e ottimizzazione",
+      "Lavoro in team tecnico e delivery end-to-end"
+    ],
     "outcomesDescription": "Questo titolo e richiesto nel mercato del lavoro perche combina basi teoriche solide con una forte operativita pratica."
   },
   "experience": {
@@ -167,6 +167,12 @@
       }
     ],
     "timeline": [
+      {
+        "period": "13/05/2026 - 19/06/2026",
+        "badge": "Formazione",
+        "title": "Esperinza PCTO a Dublino",
+        "description": "Percorso di studio e lavoro presso <i> Atlas Language School a Dublino</i>, con focus su sviluppo linguistico dell'inglese. <br> <b>Certificazione</b>: 1-Settimana (30 ore) Cultura Irlandese e Comunicazione linguistica Inglese."
+      },
       {
         "period": "2021 - 2027",
         "badge": "Formazione",
@@ -261,6 +267,7 @@
         "description": "Una piattaforma interattiva di quiz in lingua inglese basata sulla storia della Scuola Marconi-Mangano e sulle passate presentazioni educative. Progettato per migliorare le competenze linguistiche richieste nel progetto conoscitivo Erasmus 2025/2026.",
         "tags": ["JavaScript", "Html", "Css"],
         "imageAlt": "Logo Quiz Inglese",
+        "imagePath": "src/vetrina/English-Legacy-QuizFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
         "demoUnavailable": true,
@@ -272,6 +279,7 @@
         "description": "Un gestionale scolastico modulare, pensato per supportare ogni area operativa di un istituto formativo. Nasce dall'osservazione quotidiana di problemi reali: strumenti frammentati, flussi manuali, dati dispersi e poca visibilità.",
         "tags": ["Python", "Html", "Css", "JavaScript"],
         "imageAlt": "Logo Marconi-Cortex",
+        "imagePath": "src/vetrina/marconi-cortex-logoFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
         "demoUnavailable": true,

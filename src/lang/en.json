@@ -168,6 +168,12 @@
     ],
     "timeline": [
       {
+        "period": "13/05/2026 - 19/06/2026",
+        "badge": "Training",
+        "title": "PCTO Experience in Dublin",
+        "description": "Study and work path at <i> Atlas Language School in Dublin</i>, with a focus on English language development. <br> <b>Certification</b>: 1-Week (30 hours) Irish Culture and English Linguistic Communication."
+      },
+      {
         "period": "2021 - 2027",
         "badge": "Training",
         "title": "500+ hours of PCTO and technical certifications",
@@ -260,6 +266,7 @@
         "description": "An interactive English quiz platform based on the history of the Marconi-Mangano School and previous educational presentations. Designed to improve language skills requested in the Erasmus 2025/2026 awareness project.",
         "tags": ["JavaScript", "Html", "Css"],
         "imageAlt": "English Quiz logo",
+        "imagePath": "src/vetrina/English-Legacy-QuizFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
         "demoUnavailable": true,
@@ -271,6 +278,7 @@
         "description": "A modular school management system designed to support every operational area of a training institute. It was born from the daily observation of real problems: fragmented tools, manual flows, scattered data and poor visibility.",
         "tags": ["Python", "Html", "Css", "JavaScript"],
         "imageAlt": "Marconi-Cortex logo",
+        "imagePath": "src/vetrina/marconi-cortex-logoFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
         "demoUnavailable": true,

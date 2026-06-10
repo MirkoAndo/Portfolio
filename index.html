@@ -18,42 +18,42 @@
 <body>
   <header class="header" id="home">
     <nav class="navbar container" aria-label="Navigazione principale">
-      <a href="#home" class="logo">Portfolio - Catania</a>
+      <a href="#home" class="logo" data-i18n="nav.brand"></a>
 
-      <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="mobile-menu">
+      <button class="menu-toggle" aria-label="" aria-expanded="false" aria-controls="mobile-menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
       <ul class="nav-links" id="desktop-menu">
-        <li><a href="#home">Inizio</a></li>
-        <li><a href="#about">Chi sono</a></li>
-        <li><a href="#education">Diploma</a></li>
-        <li><a href="#experience">Percorso</a></li>
-        <li><a href="#skills">Competenze</a></li>
-        <li><a href="#projects">Progetti</a></li>
-        <li><a href="#contact">Contatti</a></li>
+        <li><a href="#home" data-i18n="nav.home"></a></li>
+        <li><a href="#about" data-i18n="nav.about"></a></li>
+        <li><a href="#education" data-i18n="nav.education"></a></li>
+        <li><a href="#experience" data-i18n="nav.experience"></a></li>
+        <li><a href="#skills" data-i18n="nav.skills"></a></li>
+        <li><a href="#projects" data-i18n="nav.projects"></a></li>
+        <li><a href="#contact" data-i18n="nav.contact"></a></li>
       </ul>
 
-      <a href="#contact" class="btn btn-outline nav-cta">Contattami</a>
-      <button class="lang-toggle" type="button" aria-label="Passa all'inglese" data-lang-toggle>
-        <img src="src/lang/en.svg" alt="Bandiera inglese" class="lang-toggle__flag" data-lang-flag />
+      <a href="#contact" class="btn btn-outline nav-cta" data-i18n="nav.cta"></a>
+      <button class="lang-toggle" type="button" aria-label="" data-lang-toggle>
+        <img src="src/lang/en.svg" alt="" class="lang-toggle__flag" data-lang-flag />
         <span class="lang-toggle__label">EN</span>
       </button>
     </nav>
 
     <div class="mobile-menu" id="mobile-menu">
-      <a href="#home">Inizio</a>
-      <a href="#about">Chi sono</a>
-      <a href="#education">Diploma</a>
-      <a href="#experience">Percorso</a>
-      <a href="#skills">Competenze</a>
-      <a href="#projects">Progetti</a>
-      <a href="#contact">Contatti</a>
-      <a href="#contact" class="btn btn-outline">Contattami</a>
-      <button class="lang-toggle" type="button" aria-label="Passa all'inglese" data-lang-toggle>
-        <img src="src/lang/en.svg" alt="Bandiera inglese" class="lang-toggle__flag" data-lang-flag />
+      <a href="#home" data-i18n="nav.home"></a>
+      <a href="#about" data-i18n="nav.about"></a>
+      <a href="#education" data-i18n="nav.education"></a>
+      <a href="#experience" data-i18n="nav.experience"></a>
+      <a href="#skills" data-i18n="nav.skills"></a>
+      <a href="#projects" data-i18n="nav.projects"></a>
+      <a href="#contact" data-i18n="nav.contact"></a>
+      <a href="#contact" class="btn btn-outline" data-i18n="nav.cta"></a>
+      <button class="lang-toggle" type="button" aria-label="" data-lang-toggle>
+        <img src="src/lang/en.svg" alt="" class="lang-toggle__flag" data-lang-flag />
         <span class="lang-toggle__label">EN</span>
       </button>
     </div>
@@ -63,16 +63,13 @@
     <section class="hero section reveal">
       <div class="container hero-grid">
         <div class="hero-content">
-          <p class="section-kicker">BENVENUTO NEL MIO SISTEMA</p>
-          <h1>Mirko Andò</h1>
+          <p class="section-kicker" data-i18n="hero.kicker"></p>
+          <h1 data-i18n="hero.title"></h1>
           <h2><span id="typing"></span><span class="cursor">|</span></h2>
-          <p>
-            Studente di Informatica del Marconi - Mangano CT focalizzato sulla costruzione di sistemi backend robusti, 
-            automazione e data processing con una mentalità di security difensiva.
-          </p>
+          <p data-i18n="hero.description"></p>
           <div class="hero-actions">
-            <a href="#contact" class="btn btn-solid">Contattami</a>
-            <a href="https://www.credly.com/users/mirko-ando" target="_blank" class="btn btn-outline">Le mie certificazioni</a>
+            <a href="#contact" class="btn btn-solid" data-i18n="hero.primaryCta"></a>
+            <a href="https://www.credly.com/users/mirko-ando" target="_blank" class="btn btn-outline" data-i18n="hero.secondaryCta"></a>
           </div>
         </div>
 
@@ -99,52 +96,33 @@
         <div class="about-image-wrap">
           <img
             src="src/profile/Avatar.jpeg"
-            alt="Avatar professionale"
+            alt=""
             class="about-image"
           />
         </div>
         <div class="about-content">
-          <p class="section-kicker">PROFILO</p>
-          <h3>Chi sono</h3>
-          <p>
-            Mente lucida e disciplinata, in costante
-            tensione evolutiva tra ordine interiore e
-            sfida esterna. Non cerco approvazione;
-            miro alla coerenza tra ciò che sono, ciò
-            che faccio e ciò che progetto di diventare.
-            Il mio approccio al lavoro/studio:
-            Ho una disciplina strutturata e non rigida.
-            Mi alleno ogni giorno a restare in controllo
-            senza spegnere la spontaneità,
-            costruendo abitudini stabili anche nei
-            momenti instabili. Se inciampo, mi riallineo
-            prontamente, trasformando ogni ostacolo
-            in un'opportunità di crescita. <br>
-            <i><strong>Note medico-legali: Diabete mellito di tipo 1 (in trattamento insulinico) <br>
-            Possedimento Legge 68/99 ITA – Norme per il diritto al lavoro dei disabili</strong></i>
-          </p>
+          <p class="section-kicker" data-i18n="about.kicker"></p>
+          <h3 data-i18n="about.title"></h3>
+          <p id="about-description-text"></p>
           
           <div style="margin-top: 1rem;">
-             <h4>Principi fondamentali:</h4>
-             <ul style="list-style: inside; color: var(--text-muted);">
-                <li>Disciplina prima della motivazione</li>
-                <li>Progetto prima di agire</li>
-                <li>Responsabilità prima delle scorciatoie</li>
+             <h4 data-i18n="about.fundamentalsTitle"></h4>
+             <ul style="list-style: inside; color: var(--text-muted);" id="about-fundamentals-list">
              </ul>
            </div>
 
-          <div class="stats">
+          <div class="stats" id="about-stats-container">
             <article class="stat-box">
-              <h4>Italiano</h4>
-              <p>Madrelingua (C2)</p>
+              <h4></h4>
+              <p></p>
             </article>
             <article class="stat-box">
-              <h4>Inglese</h4>
-              <p>B2 <br> in corso</p>
+              <h4></h4>
+              <p></p>
             </article>
             <article class="stat-box">
-              <h4>Spagnolo</h4>
-              <p>A1 <br> intelligibilità </p>
+              <h4></h4>
+              <p></p>
             </article>
           </div>
         </div>
@@ -153,262 +131,60 @@
 
     <section class="education section reveal" id="education">
       <div class="container">
-        <p class="section-kicker">PROFILO SCOLASTICO</p>
-        <h3>Diploma in Informatica e Telecomunicazioni</h3>
-        <p class="education-intro">
-          Frequento l'Istituto Tecnico Industriale Marconi-Mangano di Catania,
-          indirizzo Informatica e Telecomunicazioni - articolazione Informatica.
-          Questo percorso mi sta formando con un approccio tecnico avanzato,
-          dove teoria, laboratorio e pratica continua lavorano insieme in modo
-          molto vicino ai contesti professionali dell'IT.
-        </p>
+        <p class="section-kicker" data-i18n="education.kicker"></p>
+        <h3 data-i18n="education.title"></h3>
+        <p class="education-intro" data-i18n="education.intro"></p>
 
         <div class="education-grid">
-          <article class="education-card">
-            <h4>Percorso formativo</h4>
-            <p>
-              Durante il diploma ho consolidato competenze su sviluppo software,
-              sistemi e infrastrutture digitali.
-            </p>
-            <ul>
-              <li>Programmazione: Python, Java, C/C++ e sviluppo web</li>
-              <li>Progettazione e gestione di database relazionali</li>
-              <li>Sistemi operativi: Windows e Linux</li>
-              <li>Reti, protocolli, sicurezza e configurazione apparati</li>
-              <li>Embedded systems e architettura dei calcolatori</li>
-              <li>Ciclo di vita del software: analisi, sviluppo e test</li>
+          <article class="education-card" id="education-training-card">
+            <h4 data-i18n="education.trainingTitle"></h4>
+            <p data-i18n="education.trainingDescription"></p>
+            <ul id="education-training-list">
             </ul>
           </article>
 
-          <article class="education-card">
-            <h4>Borse di studio per merito</h4>
-            <p>
-              In tutti gli anni del triennio scolastico ho ottenuto la borsa di studio
-              per merito, riconoscimento assegnato agli studenti con risultati
-              costanti e comportamento responsabile.
-            </p>
-            <ul>
-              <li>Rendimento continuo durante l'anno</li>
-              <li>Media scolastica elevata</li>
-              <li>Comportamento corretto e professionale</li>
-              <li>Impegno in attivita didattiche e progetti extra</li>
+          <article class="education-card" id="education-scholarship-card">
+            <h4 data-i18n="education.scholarshipTitle"></h4>
+            <p data-i18n="education.scholarshipDescription"></p>
+            <ul id="education-scholarship-list">
             </ul>
           </article>
         </div>
 
         <article class="education-outcomes">
-          <h4>Competenze in uscita del diploma</h4>
-          <div class="education-tags">
-            <span>Sviluppo software e applicazioni</span>
-            <span>Progettazione sistemi informativi e basi dati</span>
-            <span>Gestione reti, server e ambienti Linux</span>
-            <span>Sicurezza informatica di base</span>
-            <span>Automazione, manutenzione e ottimizzazione</span>
-            <span>Lavoro in team tecnico e delivery end-to-end</span>
+          <h4 data-i18n="education.outcomesTitle"></h4>
+          <div class="education-tags" id="education-outcomes-tags">
           </div>
-          <p>
-            Questo titolo e richiesto nel mercato del lavoro perche combina
-            basi teoriche solide con una forte operativita pratica.
-          </p>
+          <p data-i18n="education.outcomesDescription"></p>
         </article>
       </div>
     </section>
 
     <section class="experience section reveal" id="experience">
       <div class="container">
-        <p class="section-kicker">COMPETENZE TRASVERSALI</p>
-        <h3>Mindset operativo</h3>
+        <p class="section-kicker" data-i18n="experience.kicker"></p>
+        <h3 data-i18n="experience.title"></h3>
 
-        <div class="soft-skills-grid">
-          <article class="soft-skill-card">
-            <h4>Leadership</h4>
-            <p>Guido attraverso l'esempio, assumendomi piena responsabilità delle mie azioni e delle decisioni prese.</p>
-          </article>
-
-          <article class="soft-skill-card">
-            <h4>Gestione emotiva e autocontrollo</h4>
-            <p>Mantengo lucidità sotto pressione, distinguendo la reazione impulsiva dalla risposta consapevole.</p>
-          </article>
-
-          <article class="soft-skill-card">
-            <h4>Pensiero analitico e decisione lucida</h4>
-            <p>Scompongo problemi complessi e agisco con metodo, anche in contesti ad alta intensità operativa.</p>
-          </article>
-
-          <article class="soft-skill-card">
-            <h4>Disciplina e continuità interiore</h4>
-            <p>Mi affido a costanza e coerenza nel lungo periodo, indipendentemente dalla motivazione esterna.</p>
-          </article>
-
-          <article class="soft-skill-card">
-            <h4>Comunicazione efficace e adattiva</h4>
-            <p>Calibro linguaggio, tono e presenza in base al contesto tecnico, relazionale e professionale.</p>
-          </article>
-
-          <article class="soft-skill-card">
-            <h4>Autonomia operativa e gestione del carico</h4>
-            <p>Organizzo attività e priorità in autonomia, ottimizzando energie e tempi per massimizzare i risultati.</p>
-          </article>
+        <div class="soft-skills-grid" id="soft-skills-container">
+          <!-- Populated by JS -->
         </div>
 
-        <p class="section-kicker">PERCORSO</p>
+        <p class="section-kicker" data-i18n="experience.roadmapKicker"></p>
         <div class="section-heading">
-          <h3>Formazione & Percorso</h3>
-          <p class="section-lead">
-            Una sintesi delle principali tappe formative e delle esperienze che hanno consolidato il mio profilo tecnico.
-          </p>
+          <h3 data-i18n="experience.roadmapTitle"></h3>
+          <p class="section-lead" data-i18n="experience.roadmapLead"></p>
         </div>
 
-        <div class="career-rail" aria-label="Career rail formazione e crescita professionale">
-          <aside class="rail-nav" aria-label="Indice rapido percorso">
-            <p class="rail-nav-title">Roadmap Rapida</p>
-            <ol class="rail-list">
-              <li><a class="rail-link" href="#step-pcto"><span class="rail-date">2021-2027</span><span class="rail-title">PCTO e certificazioni</span></a></li>
-              <li><a class="rail-link" href="#step-diploma"><span class="rail-date">2021-2027</span><span class="rail-title">Diploma ITI</span></a></li>
-              <li><a class="rail-link" href="#step-orientamento"><span class="rail-date">2024-2026</span><span class="rail-title">Orientamento tecnico</span></a></li>
-              <li><a class="rail-link" href="#step-olimpiadi"><span class="rail-date">2024-2026</span><span class="rail-title">Olimpiadi di Informatica</span></a></li>
-              <li><a class="rail-link" href="#step-python2"><span class="rail-date">15/10/2024</span><span class="rail-title">Python Essentials 2</span></a></li>
-              <li><a class="rail-link" href="#step-network-security"><span class="rail-date">21/10/2024</span><span class="rail-title">Network Support and Security</span></a></li>
-              <li><a class="rail-link" href="#step-data-analytics"><span class="rail-date">07/12/2024</span><span class="rail-title">Data Analytics Essentials</span></a></li>
-              <li><a class="rail-link" href="#step-network-defense"><span class="rail-date">12/12/2024</span><span class="rail-title">Network Defense</span></a></li>
-              <li><a class="rail-link" href="#step-cyber-threat"><span class="rail-date">11/04/2026</span><span class="rail-title">Cyber Threat Management</span></a></li>
-              <li><a class="rail-link" href="#step-focus"><span class="rail-date">Oggi</span><span class="rail-title">Focus professionale</span></a></li>
+        <div class="career-rail" aria-label="">
+          <aside class="rail-nav">
+            <p class="rail-nav-title" data-i18n="experience.roadmapTitleLabel"></p>
+            <ol class="rail-list" id="rail-list">
+              <!-- Populated by JS -->
             </ol>
           </aside>
 
-          <div class="timeline" aria-label="Timeline formazione e crescita professionale">
-
-          <article class="timeline-item" id="step-pcto">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">2021 - 2027</span>
-                <span class="timeline-badge">Formazione</span>
-              </div>
-              <h4>500+ ore PCTO e certificazioni tecniche</h4>
-              <p>Percorso continuativo tra laboratori, progetti pratici e certificazioni su sviluppo software, networking e cybersecurity.</p>
-            </div>
-          </article>
-          
-          <article class="timeline-item" id="step-diploma">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">2021 - 2027</span>
-                <span class="timeline-badge">Diploma</span>
-              </div>
-              <h4>Diploma ITI Informatica e Telecomunicazioni</h4>
-              <p>Marconi-Mangano, Catania: formazione tecnico-pratica su backend, database, sistemi operativi e reti.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-orientamento">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">2024/2025 - 2025/2026</span>
-                <span class="timeline-badge">Comunicazione</span>
-              </div>
-              <h4>Orientamento scolastico e public speaking tecnico</h4>
-              <p>Supporto a studenti e famiglie durante le attivita di orientamento, traducendo contenuti tecnici in modo chiaro ed efficace.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-olimpiadi">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">2024/2025 - 2025/2026</span>
-                <span class="timeline-badge">Competizioni</span>
-              </div>
-              <h4>Olimpiadi di Informatica</h4>
-              <p>Allenamento su logica e problem solving algoritmico in contesti competitivi, con focus su precisione e gestione del tempo.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-python2">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">15/10/2024</span>
-                <span class="timeline-badge">Certificazione</span>
-              </div>
-              <h4>Cisco Networking Academy - Python Essentials 2</h4>
-              <p>Programmazione Python intermedia: OOP, moduli, eccezioni e file handling applicati ad attivita di automazione. Emessa il 15 ottobre 2024.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-network-security">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">21/10/2024</span>
-                <span class="timeline-badge">Certificazione</span>
-              </div>
-              <h4>Cisco Networking Academy - Network Support and Security</h4>
-              <p>Competenze operative su supporto reti ed endpoint, troubleshooting e security di base in scenari help desk. Emessa il 21 ottobre 2024.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-data-analytics">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">07/12/2024</span>
-                <span class="timeline-badge">Certificazione</span>
-              </div>
-              <h4>Cisco Networking Academy - Data Analytics Essentials</h4>
-              <p>Fondamenti di data analytics: raccolta, pulizia, trasformazione e analisi dati con strumenti operativi. Emessa il 7 dicembre 2024.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-network-defense">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">12/12/2024</span>
-                <span class="timeline-badge">Certificazione</span>
-              </div>
-              <h4>Cisco Networking Academy - Network Defense</h4>
-              <p>Monitoraggio e protezione rete con focus su access control, firewall, cloud security e risposta agli alert. Emessa il 12 dicembre 2024.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-cyber-threat">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">11/04/2026</span>
-                <span class="timeline-badge">Certificazione</span>
-              </div>
-              <h4>Cisco Networking Academy - Cyber Threat Management</h4>
-              <p>Gestione minacce cyber, vulnerability assessment e impostazione di piani di risk management e incident response.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item" id="step-focus">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">Oggi</span>
-                <span class="timeline-badge">Obiettivo</span>
-              </div>
-              <h4>Focus professionale attuale</h4>
-              <p>Sviluppo di progetti backend solidi, codice manutenibile e rafforzamento dell'inglese tecnico verso livello C1.</p>
-            </div>
-          </article>
-
-           <article class="timeline-item" id="step-credentials">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-top">
-                <span class="timeline-period">In corso</span>
-                <span class="timeline-badge">Credenziali</span>
-              </div>
-              <h4>Portfolio certificazioni in aggiornamento</h4>
-              <p>Python Essentials 1 e 2, Network Support and Security, Data Analytics Essentials, Network Defense, Cyber Threat Management e Networking Basics.</p>
-            </div>
-          </article>
+          <div class="timeline" id="timeline-container">
+            <!-- Populated by JS -->
           </div>
         </div>
       </div>
@@ -416,32 +192,29 @@
 
     <section class="skills section reveal" id="skills">
       <div class="container">
-        <p class="section-kicker">STACK TECNICO</p>
-        <h3>Competenze Tecniche</h3>
-        <p class="skills-intro">
-          Una vista sintetica delle competenze operative che utilizzo nei progetti,
-          suddivise per linguaggi e ambienti di lavoro.
-        </p>
-        <p class="skills-scale">Scala livelli: Base &lt; 50% | Intermedio 50-69% | Avanzato &gt;= 70%</p>
+        <p class="section-kicker" data-i18n="skills.kicker"></p>
+        <h3 data-i18n="skills.title"></h3>
+        <p class="skills-intro" data-i18n="skills.intro"></p>
+        <p class="skills-scale" data-i18n="skills.scale"></p>
 
         <div class="skills-layout">
           <article class="skills-panel">
             <div class="skills-heading">
-              <h4>Linguaggi e sviluppo software</h4>
-              <p>Tecnologie usate per sviluppo backend, web e gestione dati.</p>
+              <h4 data-i18n="skills.softwareTitle"></h4>
+              <p data-i18n="skills.softwareDescription"></p>
             </div>
 
-            <div class="skills-progress" aria-label="Livello competenze linguaggi e sviluppo software">
+            <div class="skills-progress" aria-label="">
               <div class="skills-legend" aria-hidden="true">
-                <span class="level level-base">Base</span>
-                <span class="level level-mid">Intermedio</span>
-                <span class="level level-adv">Avanzato</span>
+                <span class="level level-base"></span>
+                <span class="level level-mid"></span>
+                <span class="level level-adv"></span>
               </div>
 
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Python</span>
-                  <span class="level level-adv">Avanzato</span>
+                  <span class="level level-adv"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w90"><span class="tooltip">90%</span></span>
@@ -451,7 +224,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">HTML / CSS</span>
-                  <span class="level level-adv">Avanzato</span>
+                  <span class="level level-adv"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w80"><span class="tooltip">80%</span></span>
@@ -461,7 +234,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Java</span>
-                  <span class="level level-mid">Intermedio</span>
+                  <span class="level level-mid"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w65"><span class="tooltip">65%</span></span>
@@ -471,7 +244,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">C / C++</span>
-                  <span class="level level-mid">Intermedio</span>
+                  <span class="level level-mid"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w60"><span class="tooltip">60%</span></span>
@@ -481,7 +254,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">PHP</span>
-                  <span class="level level-base">Base</span>
+                  <span class="level level-base"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w40"><span class="tooltip">40%</span></span>
@@ -491,7 +264,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">SQL</span>
-                  <span class="level level-base">Base</span>
+                  <span class="level level-base"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w30"><span class="tooltip">30%</span></span>
@@ -501,33 +274,32 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">JavaScript</span>
-                  <span class="level level-base">Base</span>
+                  <span class="level level-base"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w30"><span class="tooltip">30%</span></span>
                 </div>
               </article>
-
             </div>
           </article>
 
           <article class="skills-panel">
             <div class="skills-heading">
-              <h4>Ambienti e strumenti operativi</h4>
-              <p>Competenze applicate nella gestione di sistemi e workflow tecnici.</p>
+              <h4 data-i18n="skills.toolsTitle"></h4>
+              <p data-i18n="skills.toolsDescription"></p>
             </div>
 
-            <div class="skills-progress" aria-label="Livello competenze ambienti e strumenti operativi">
+            <div class="skills-progress" aria-label="">
               <div class="skills-legend" aria-hidden="true">
-                <span class="level level-base">Base</span>
-                <span class="level level-mid">Intermedio</span>
-                <span class="level level-adv">Avanzato</span>
+                <span class="level level-base"></span>
+                <span class="level level-mid"></span>
+                <span class="level level-adv"></span>
               </div>
 
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Windows</span>
-                  <span class="level level-adv">Avanzato</span>
+                  <span class="level level-adv"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w90"><span class="tooltip">100%</span></span>
@@ -537,7 +309,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Windows Server Desktop Experience</span>
-                  <span class="level level-adv">Avanzato</span>
+                  <span class="level level-adv"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w75"><span class="tooltip">75%</span></span>
@@ -547,7 +319,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Git & Version Control</span>
-                  <span class="level level-mid">Intermedio</span>
+                  <span class="level level-mid"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w60"><span class="tooltip">60%</span></span>
@@ -557,7 +329,7 @@
               <article class="skill-box">
                 <div class="skill-head">
                   <span class="title">Linux & Shell Scripting</span>
-                  <span class="level level-base">Base</span>
+                  <span class="level level-base"></span>
                 </div>
                 <div class="skill-bar">
                   <span class="skill-per w45"><span class="tooltip">45%</span></span>
@@ -571,92 +343,21 @@
 
     <section class="projects section reveal" id="projects">
       <div class="container">
-        <p class="section-kicker">VETRINA</p>
-        <h3>Progetti Attuali</h3>
+        <p class="section-kicker" data-i18n="projects.kicker"></p>
+        <h3 data-i18n="projects.title"></h3>
 
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-image">
-              <span><img src="src/vetrina/English-Legacy-QuizFull.png" alt="Logo Quiz Inglese"></span>
-            </div>
-            <div class="project-content">
-              <h4>Quiz Inglese - Interattivo Web</h4>
-              <p>Una piattaforma interattiva di quiz in lingua inglese basata sulla storia della Scuola Marconi-Mangano e sulle passate presentazioni educative. 
-                Progettato per migliorare le competenze linguistiche richiesto nel progetto conoscitivo Erasmus 2025/2026..</p>
-              <div class="tags">
-                <span>JavaScript</span>
-                <span>Html</span>
-                <span>Css</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://englishtest2026.netlify.app/"
-                  class="project-link-btn"
-                  aria-disabled="true"
-                  tabindex="-1"
-                >
-                  <icon>🌐</icon> LIVE DEMO
-                </a>
-                <a
-                  href="https://github.com/MirkoAndo/English-Legacy-Quiz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link-btn"
-                  aria-label="Apri codice sorgente su GitHub"
-                >
-                  <icon>💻</icon> SOURCE
-                </a>
-              </div>
-          </article>
-          <article class="project-card">
-            <div class="project-image">
-              <span><img src="src/vetrina/marconi-cortex-logoFull.png" alt="Logo Marconi-Cortex"></span>
-            </div>
-            <div class="project-content">
-              <h4>Marconi-Cortex</h4>
-              <p>Un gestionale scolastico modulare, pensato per supportare ogni area operativa di un istituto formativo. 
-                Nasce dall'osservazione quotidiana di problemi reali: strumenti frammentati, flussi manuali, 
-                dati dispersi e poca visibilità..</p>
-              <div class="tags">
-                <span>Python</span>
-                <span>Html</span>
-                <span>Css</span>
-                <span>JavaScript</span>
-              </div>
-              <div class="project-links" style="margin: 40px 0 0 0;">
-                <a
-                  href="https://mirkoando.github.io/Marconi-Cortex/"
-                  class="project-link-btn is-unavailable"
-                  aria-disabled="true"
-                  tabindex="-1"
-                >
-                  <icon>🌐</icon> LIVE DEMO
-                </a>
-                <a
-                  href="https://github.com/MirkoAndo/Marconi-Cortex"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link-btn is-unavailable"
-                  aria-label="Apri codice sorgente su GitHub"
-                >
-                  <icon>💻</icon> SOURCE
-                </a>
-              </div>
-            </div>
-          </article>
+        <div class="projects-grid" id="projects-container">
+          <!-- Populated by JS -->
         </div>
 
-
-        
         <div class="hero-actions" style="justify-content: center; margin-top: 2rem;">
           <a
             href="https://github.com/mirko-ando?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-solid"
-            aria-label="Esplora archivio GitHub"
+            data-i18n="projects.archiveCta"
           >
-            Esplora archivio
           </a>
         </div>
       </div>
@@ -665,44 +366,43 @@
     <section class="contact section reveal" id="contact">
       <div class="container contact-grid">
         <div class="contact-info">
-          <p class="section-kicker">CONTATTI</p>
-          <h3>Costruiamo sistemi</h3>
-          <p>Da concetto a codice, costruisco sistemi stabili e performanti su cui puoi contare.</p>
+          <p class="section-kicker" data-i18n="contact.kicker"></p>
+          <h3 data-i18n="contact.title"></h3>
+          <p data-i18n="contact.description"></p>
 
           <ul>
-            <li><strong>Email:</strong> mirko.ando.dev@gmail.com</li>
-            <li><strong>Telefono:</strong> +39 3296318067</li>
-            <li><strong>Certificazioni:</strong> <a href="https://www.credly.com/users/mirko-ando" target="_blank" style="color:var(--primary);">Profilo Credly</a></li>
+            <li id="contact-email"></li>
+            <li id="contact-phone"></li>
+            <li id="contact-certifications"></li>
           </ul>
 
           <div class="socials">
-            <a href="https://github.com/MirkoAndo" aria-label="GitHub">GitHub</a>
+            <a href="https://github.com/MirkoAndo" data-i18n="contact.socialLabel"></a>
           </div>
         </div>
 
-        <aside class="contact-visual" aria-label="QR code per aprire il portfolio online">
+        <aside class="contact-visual">
           <a
             href="https://mirkoandoportfolio.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             class="contact-visual-link"
-            aria-label="Apri portfolio online"
           >
             <img
               src="https://api.qrserver.com/v1/create-qr-code/?size=1000x1000&data=https%3A%2F%2Fmirkoandoportfolio.netlify.app%2F"
-              alt="QR code per visitare il portfolio online"
+              alt=""
               class="contact-qr-image"
               loading="lazy"
             />
           </a>
-          <p class="contact-qr-caption">Scansiona il QR o clicca il codice per aprire il portfolio</p>
+          <p class="contact-qr-caption" data-i18n="contact.qrCaption"></p>
         </aside>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>©Copyright (c) 2026 Mirko Andò</p>
+    <p data-i18n="footer.text"></p>
   </footer>
 
   <script src="script.js"></script>
