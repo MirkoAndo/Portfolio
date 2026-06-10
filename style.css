@@ -134,6 +134,40 @@ h3 {
   width: 100%;
 }
 
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  border: 1px solid rgba(88, 101, 242, 0.55);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-highlight);
+  border-radius: 999px;
+  padding: 0.62rem 0.9rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.lang-toggle:hover {
+  border-color: var(--accent-color);
+  background: rgba(88, 101, 242, 0.16);
+  transform: translateY(-2px);
+}
+
+.lang-toggle__flag {
+  width: 1.15rem;
+  height: 0.8rem;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.lang-toggle__label {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
 /* Header */
 .header {
   position: fixed;
@@ -210,6 +244,11 @@ h3 {
 
 .mobile-menu a:hover {
   color: var(--text-highlight);
+}
+
+.mobile-menu .lang-toggle {
+  width: 100%;
+  justify-content: center;
 }
 
 /* Hero */
@@ -1116,6 +1155,10 @@ h3 {
 
   .nav-links,
   .nav-cta {
+    display: none;
+  }
+
+  .navbar > .lang-toggle {
     display: none;
   }
 

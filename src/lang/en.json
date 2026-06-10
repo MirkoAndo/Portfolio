@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "title": "Mirko Andò | Backend, Security & Automation Portfolio",
+    "description": "Mirko Andò portfolio: backend, automation and cybersecurity projects with a disciplined, stability-focused approach."
+  },
+  "nav": {
+    "brand": "Portfolio - Catania",
+    "home": "Home",
+    "about": "About",
+    "education": "Diploma",
+    "experience": "Path",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Contact me"
+  },
+  "hero": {
+    "kicker": "WELCOME TO MY SYSTEM",
+    "title": "Mirko Andò",
+    "subtitle": "I am a Software Engineer.",
+    "description": "Computer science student at Marconi - Mangano CT focused on building robust backend systems, automation and data processing with a defensive security mindset.",
+    "primaryCta": "Contact me",
+    "secondaryCta": "My certifications"
+  },
+  "about": {
+    "kicker": "PROFILE",
+    "title": "About me",
+    "description": "A lucid and disciplined mind, in constant tension between inner order and external challenge. I do not seek approval; I aim for coherence between who I am, what I do, and what I plan to become. My approach to work and study: I use a structured but not rigid discipline. Every day I train myself to stay in control without turning off spontaneity, building stable habits even in unstable moments. If I stumble, I quickly realign and turn every obstacle into a growth opportunity.",
+    "medicalNote": "Medical-legal note: Type 1 diabetes mellitus (under insulin treatment) Possession of Italian Law 68/99 - Rules for the right to work of disabled people",
+    "fundamentalsTitle": "Core principles:",
+    "fundamentals": [
+      "Discipline before motivation",
+      "Plan before action",
+      "Responsibility before shortcuts"
+    ],
+    "stats": [
+      {
+        "label": "Italian",
+        "value": "Native (C2)"
+      },
+      {
+        "label": "English",
+        "value": "B2 in progress"
+      },
+      {
+        "label": "Spanish",
+        "value": "A1 intelligibility"
+      }
+    ]
+  },
+  "education": {
+    "kicker": "SCHOOL PROFILE",
+    "title": "Diploma in Computer Science and Telecommunications",
+    "intro": "I attend the Marconi-Mangano Technical Industrial Institute in Catania, Computer Science and Telecommunications track, Computer Science specialization. This path is training me with an advanced technical approach, where theory, lab work and continuous practice work together in a way that is very close to professional IT contexts.",
+    "trainingTitle": "Training path",
+    "trainingDescription": "During the diploma I consolidated skills in software development, systems and digital infrastructure.",
+    "trainingItems": [
+      "Programming: Python, Java, C/C++ and web development",
+      "Design and management of relational databases",
+      "Operating systems: Windows and Linux",
+      "Networks, protocols, security and device configuration",
+      "Embedded systems and computer architecture",
+      "Software lifecycle: analysis, development and testing"
+    ],
+    "scholarshipTitle": "Merit scholarships",
+    "scholarshipDescription": "Throughout all years of the upper-secondary cycle I received the merit scholarship, a recognition awarded to students with consistent results and responsible behavior.",
+    "scholarshipItems": [
+      "Continuous performance throughout the year",
+      "High school average",
+      "Correct and professional behavior",
+      "Commitment to classroom activities and extra projects"
+    ],
+    "outcomesTitle": "Diploma exit competencies",
+    "outcomesTags": [
+      "Software and application development",
+      "Information systems and database design",
+      "Network, server and Linux environment management",
+      "Basic cybersecurity",
+      "Automation, maintenance and optimization",
+      "Technical teamwork and end-to-end delivery"
+    ],
+    "outcomesDescription": "This qualification is in demand in the job market because it combines solid theoretical foundations with strong practical execution."
+  },
+  "experience": {
+    "kicker": "SOFT SKILLS",
+    "title": "Operating mindset",
+    "softSkills": [
+      {
+        "title": "Leadership",
+        "description": "I lead by example, taking full responsibility for my actions and decisions."
+      },
+      {
+        "title": "Emotional regulation and self-control",
+        "description": "I keep clarity under pressure, distinguishing impulsive reactions from conscious responses."
+      },
+      {
+        "title": "Analytical thinking and clear decision-making",
+        "description": "I break down complex problems and act methodically, even in high-intensity operational contexts."
+      },
+      {
+        "title": "Discipline and inner consistency",
+        "description": "I rely on consistency and coherence over the long term, regardless of external motivation."
+      },
+      {
+        "title": "Effective and adaptive communication",
+        "description": "I tune language, tone and presence to the technical, relational and professional context."
+      },
+      {
+        "title": "Operational autonomy and workload management",
+        "description": "I organize tasks and priorities independently, optimizing energy and time to maximize results."
+      }
+    ],
+    "roadmapKicker": "PATH",
+    "roadmapTitle": "Training & Path",
+    "roadmapLead": "A summary of the main training milestones and experiences that strengthened my technical profile.",
+    "roadmapTitleLabel": "Quick Roadmap",
+    "roadmapItems": [
+      {
+        "date": "2021-2027",
+        "title": "PCTO and certifications",
+        "target": "#step-pcto"
+      },
+      {
+        "date": "2021-2027",
+        "title": "ITI diploma",
+        "target": "#step-diploma"
+      },
+      {
+        "date": "2024-2026",
+        "title": "Technical orientation",
+        "target": "#step-orientamento"
+      },
+      {
+        "date": "2024-2026",
+        "title": "Informatics Olympiad",
+        "target": "#step-olimpiadi"
+      },
+      {
+        "date": "15/10/2024",
+        "title": "Python Essentials 2",
+        "target": "#step-python2"
+      },
+      {
+        "date": "21/10/2024",
+        "title": "Network Support and Security",
+        "target": "#step-network-security"
+      },
+      {
+        "date": "07/12/2024",
+        "title": "Data Analytics Essentials",
+        "target": "#step-data-analytics"
+      },
+      {
+        "date": "12/12/2024",
+        "title": "Network Defense",
+        "target": "#step-network-defense"
+      },
+      {
+        "date": "11/04/2026",
+        "title": "Cyber Threat Management",
+        "target": "#step-cyber-threat"
+      },
+      {
+        "date": "Today",
+        "title": "Professional focus",
+        "target": "#step-focus"
+      }
+    ],
+    "timeline": [
+      {
+        "period": "2021 - 2027",
+        "badge": "Training",
+        "title": "500+ hours of PCTO and technical certifications",
+        "description": "A continuous path through labs, hands-on projects and certifications in software development, networking and cybersecurity."
+      },
+      {
+        "period": "2021 - 2027",
+        "badge": "Diploma",
+        "title": "ITI Diploma in Computer Science and Telecommunications",
+        "description": "Marconi-Mangano, Catania: hands-on technical training in backend, databases, operating systems and networks."
+      },
+      {
+        "period": "2024/2025 - 2025/2026",
+        "badge": "Communication",
+        "title": "School orientation and technical public speaking",
+        "description": "Supporting students and families during orientation activities, translating technical topics into clear and effective language."
+      },
+      {
+        "period": "2024/2025 - 2025/2026",
+        "badge": "Competitions",
+        "title": "Informatics Olympiad",
+        "description": "Training on logic and algorithmic problem solving in competitive contexts, with a focus on precision and time management."
+      },
+      {
+        "period": "15/10/2024",
+        "badge": "Certification",
+        "title": "Cisco Networking Academy - Python Essentials 2",
+        "description": "Intermediate Python programming: OOP, modules, exceptions and file handling applied to automation tasks. Issued on 15 October 2024."
+      },
+      {
+        "period": "21/10/2024",
+        "badge": "Certification",
+        "title": "Cisco Networking Academy - Network Support and Security",
+        "description": "Operational skills in network and endpoint support, troubleshooting and basic security in help-desk scenarios. Issued on 21 October 2024."
+      },
+      {
+        "period": "07/12/2024",
+        "badge": "Certification",
+        "title": "Cisco Networking Academy - Data Analytics Essentials",
+        "description": "Data analytics fundamentals: collection, cleaning, transformation and analysis with operational tools. Issued on 7 December 2024."
+      },
+      {
+        "period": "12/12/2024",
+        "badge": "Certification",
+        "title": "Cisco Networking Academy - Network Defense",
+        "description": "Network monitoring and protection with a focus on access control, firewalls, cloud security and alert response. Issued on 12 December 2024."
+      },
+      {
+        "period": "11/04/2026",
+        "badge": "Certification",
+        "title": "Cisco Networking Academy - Cyber Threat Management",
+        "description": "Cyber threat handling, vulnerability assessment and setting up risk management and incident response plans."
+      },
+      {
+        "period": "Today",
+        "badge": "Goal",
+        "title": "Current professional focus",
+        "description": "Developing solid backend projects, maintainable code and strengthening technical English toward C1 level."
+      },
+      {
+        "period": "In progress",
+        "badge": "Credentials",
+        "title": "Certification portfolio in progress",
+        "description": "Python Essentials 1 and 2, Network Support and Security, Data Analytics Essentials, Network Defense, Cyber Threat Management and Networking Basics."
+      }
+    ]
+  },
+  "skills": {
+    "kicker": "TECH STACK",
+    "title": "Technical Skills",
+    "intro": "A concise view of the operational skills I use in projects, divided by languages and work environments.",
+    "scale": "Level scale: Base < 50% | Intermediate 50-69% | Advanced >= 70%",
+    "softwareTitle": "Languages and software development",
+    "softwareDescription": "Technologies used for backend development, web and data management.",
+    "toolsTitle": "Environments and operational tools",
+    "toolsDescription": "Skills applied to systems management and technical workflows.",
+    "levels": {
+      "base": "Base",
+      "mid": "Intermediate",
+      "adv": "Advanced"
+    }
+  },
+  "projects": {
+    "kicker": "SHOWCASE",
+    "title": "Current Projects",
+    "archiveCta": "Explore archive",
+    "items": [
+      {
+        "title": "English Quiz - Interactive Web",
+        "description": "An interactive English quiz platform based on the history of the Marconi-Mangano School and previous educational presentations. Designed to improve language skills requested in the Erasmus 2025/2026 awareness project.",
+        "tags": ["JavaScript", "Html", "Css"],
+        "imageAlt": "English Quiz logo",
+        "demoLabel": "LIVE DEMO",
+        "sourceLabel": "SOURCE",
+        "demoUnavailable": true,
+        "demoUrl": "https://englishtest2026.netlify.app/",
+        "sourceUrl": "https://github.com/MirkoAndo/English-Legacy-Quiz"
+      },
+      {
+        "title": "Marconi-Cortex",
+        "description": "A modular school management system designed to support every operational area of a training institute. It was born from the daily observation of real problems: fragmented tools, manual flows, scattered data and poor visibility.",
+        "tags": ["Python", "Html", "Css", "JavaScript"],
+        "imageAlt": "Marconi-Cortex logo",
+        "demoLabel": "LIVE DEMO",
+        "sourceLabel": "SOURCE",
+        "demoUnavailable": true,
+        "demoUrl": "https://mirkoando.github.io/Marconi-Cortex/",
+        "sourceUrl": "https://github.com/MirkoAndo/Marconi-Cortex"
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "CONTACT",
+    "title": "Let's build systems",
+    "description": "From concept to code, I build stable and performant systems you can rely on.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "certificationsLabel": "Certifications",
+    "certificationsText": "Credly profile",
+    "qrAriaLabel": "QR code to open the online portfolio",
+    "qrLinkLabel": "Open online portfolio",
+    "qrAlt": "QR code to visit the online portfolio",
+    "qrCaption": "Scan the QR or click the code to open the portfolio",
+    "socialLabel": "GitHub"
+  },
+  "footer": {
+    "text": "©Copyright (c) 2026 Mirko Andò"
+  },
+  "language": {
+    "toggleLabel": "Switch to Italian",
+    "current": "EN",
+    "flagAlt": "United Kingdom flag"
+  }
+}
