@@ -203,14 +203,14 @@ function updateEducation(translations) {
   const trainingList = document.getElementById("education-training-list");
   if (trainingList && translations.education.trainingItems) {
     trainingList.innerHTML = translations.education.trainingItems
-      .map((item) => `<li>${item}</li>`)
+      .map((item) => `<li>${item.text}</li>`)
       .join("");
   }
 
   const scholarshipList = document.getElementById("education-scholarship-list");
   if (scholarshipList && translations.education.scholarshipItems) {
     scholarshipList.innerHTML = translations.education.scholarshipItems
-      .map((item) => `<li>${item}</li>`)
+      .map((item) => `<li>${item.text}</li>`)
       .join("");
   }
 
@@ -395,6 +395,7 @@ async function generateCurriculum() {
       personalInfo: {
         ...curriculumData.personalInfo,
       },
+      trainingItems: curriculumData.education?.trainingItems || []
     };
 
     function angularParser(tag) {
