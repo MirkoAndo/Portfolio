@@ -31,6 +31,8 @@ const typingElement = document.getElementById("typing");
 const documentMetaDescription = document.querySelector('meta[name="description"]');
 const languagePreference = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
 const initialLanguage = languagePreference === "en" ? "en" : DEFAULT_LANGUAGE;
+const CV_TEMPLATE_PATH = "src/profile/CV_Mirko_Ando.docx";
+const CV_DATA_PATH = "src/lang/it.json";
 
 let currentLanguage = initialLanguage;
 let activeTranslations = null;
@@ -355,6 +357,114 @@ function updateContact(translations) {
 function updateFooter(translations) {
   // Handled by data-i18n in translatePage
 }
+async function generateCurriculum() {
+  const downloadButton = document.getElementById("download-cv-button");
+  if (!downloadButton) return;
+
+  if (downloadButton.dataset.loading === "true") return;
+  downloadButton.dataset.loading = "true";
+
+  downloadButton.setAttribute("disabled", "true");
+
+  try {
+    const [{ default: PizZip }, { default: Docxtemplater }] = await Promise.all([
+      import("https://cdn.jsdelivr.net/npm/pizzip@3.1.5/+esm"),
+      import("https://cdn.jsdelivr.net/npm/docxtemplater@3.52.0/+esm"),
+    ]);
+
+    const [templateResponse, dataResponse] = await Promise.all([
+      fetch(CV_TEMPLATE_PATH, { cache: "no-store" }),
+      fetch(CV_DATA_PATH, { cache: "no-store" }),
+    ]);
+
+    if (!templateResponse.ok) {
+      throw new Error("Unable to load CV template");
+    }
+
+    if (!dataResponse.ok) {
+      throw new Error("Unable to load CV data");
+    }
+
+    const [templateBuffer, curriculumData] = await Promise.all([
+      templateResponse.arrayBuffer(),
+      dataResponse.json(),
+    ]);
+
+    const renderData = {
+      ...curriculumData,
+      personalInfo: {
+        ...curriculumData.personalInfo,
+      },
+    };
+
+    function angularParser(tag) {
+      return {
+        get(scope) {
+          return tag.split(".").reduce((acc, key) => acc?.[key], scope);
+        },
+      };
+    }
+
+    const zip = new PizZip(templateBuffer);
+
+    const doc = new Docxtemplater(zip, {
+      paragraphLoop: true,
+      linebreaks: true,
+      delimiters: {
+        start: "{{",
+        end: "}}",
+      },
+      parser: angularParser,
+    });
+
+    doc.render(renderData);
+
+    const blob = doc.getZip().generate({
+      type: "blob",
+      mimeType:
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    });
+
+    const url = window.URL.createObjectURL(blob);
+
+    const downloadLink = document.createElement("a");
+    downloadLink.href = url;
+    downloadLink.download = "CV_Mirko_Ando.docx";
+
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    downloadLink.remove();
+
+    window.setTimeout(() => window.URL.revokeObjectURL(url), 1000);
+
+  } catch (error) {
+    console.error("CV generation error:", error);
+  } finally {
+    downloadButton.removeAttribute("disabled");
+    downloadButton.dataset.loading = "false";
+  }
+}
+
+function bindCurriculumDownload() {
+  const downloadButton = document.getElementById("download-cv-button");
+  if (!downloadButton) return;
+
+  if (downloadButton.dataset.bound === "true") return;
+  downloadButton.dataset.bound = "true";
+
+  downloadButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    generateCurriculum().catch((error) => {
+      console.error("Download error:", error);
+    });
+  });
+}
+
+function initialize() {
+  bindCurriculumDownload();
+}
+
+document.addEventListener("DOMContentLoaded", initialize);
 
 function translatePage(translations) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -487,6 +597,7 @@ function initRevealAnimation() {
 async function initialize() {
   bindNavigation();
   bindLanguageToggle();
+  bindCurriculumDownload();
   initRevealAnimation();
 
   try {

@@ -296,6 +296,7 @@
     "phoneLabel": "Telefono",
     "certificationsLabel": "Certificazioni",
     "certificationsText": "Profilo Credly",
+    "cvButton": "Download Curriculum",
     "qrAriaLabel": "QR code per aprire il portfolio online",
     "qrLinkLabel": "Apri portfolio online",
     "qrAlt": "QR code per visitare il portfolio online",
@@ -309,5 +310,14 @@
     "toggleLabel": "Passa all'inglese",
     "current": "IT",
     "flagAlt": "Bandiera italiana"
+  },
+  "personalInfo": {
+    "name": "Mirko Andò",
+    "address": "Via Antonio Pacinotti, 73 - 95122 Catania, Italia",
+    "email": "mirko.ando2008@gmail.com",
+    "phone": "+39 329 631 8067",
+    "nationality": "Italiana",
+    "dateOfBirth": "01/08/2008"
+
   }
 }
