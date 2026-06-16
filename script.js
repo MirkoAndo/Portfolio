@@ -357,6 +357,8 @@ function updateContact(translations) {
 function updateFooter(translations) {
   // Handled by data-i18n in translatePage
 }
+
+
 async function generateCurriculum() {
   const downloadButton = document.getElementById("download-cv-button");
   if (!downloadButton) return;
