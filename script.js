@@ -30,7 +30,7 @@ const languageFlagImages = document.querySelectorAll("[data-lang-flag]");
 const typingElement = document.getElementById("typing");
 const documentMetaDescription = document.querySelector('meta[name="description"]');
 const languagePreference = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
-const initialLanguage = languagePreference === "en" ? "en" : DEFAULT_LANGUAGE;
+const initialLanguage = languagePreference === "it" ? "it" : DEFAULT_LANGUAGE;
 const CV_TEMPLATE_PATH = "src/profile/CV_Mirko_Ando.docx";
 const CV_DATA_PATH = "src/lang/it.json";
 
