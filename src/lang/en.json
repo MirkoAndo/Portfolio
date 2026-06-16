@@ -269,7 +269,7 @@
         "imagePath": "src/vetrina/English-Legacy-QuizFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
-        "demoUnavailable": true,
+        "demoUnavailable": false,
         "demoUrl": "https://englishtest2026.netlify.app/",
         "sourceUrl": "https://github.com/MirkoAndo/English-Legacy-Quiz"
       },
