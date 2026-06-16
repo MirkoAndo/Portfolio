@@ -36,7 +36,7 @@
     "stats": [
       {
         "label": "Italiano",
-        "value": "Madrelingua (C2)"
+        "value": "Madrelingua"
       },
       {
         "label": "Inglese",
@@ -55,20 +55,40 @@
     "trainingTitle": "Percorso formativo",
     "trainingDescription": "Durante il diploma ho consolidato competenze su sviluppo software, sistemi e infrastrutture digitali.",
     "trainingItems": [
-      "Programmazione: Python, Java, C/C++ e sviluppo web",
-      "Progettazione e gestione di database relazionali",
-      "Sistemi operativi: Windows e Linux",
-      "Reti, protocolli, sicurezza e configurazione apparati",
-      "Embedded systems e architettura dei calcolatori",
-      "Ciclo di vita del software: analisi, sviluppo e test"
+      {
+        "text": "Programmazione: Python, Java, C/C++ e sviluppo web"
+      },
+      {
+        "text": "Progettazione e gestione di database relazionali"
+      },
+      {
+        "text": "Sistemi operativi: Windows e Linux"
+      },
+      {
+        "text": "Reti, protocolli, sicurezza e configurazione apparati"
+      },
+      {
+        "text": "Embedded systems e architettura dei calcolatori"
+      },
+      {
+        "text": "Ciclo di vita del software: analisi, sviluppo e test"
+      }
     ],
     "scholarshipTitle": "Borse di studio per merito",
     "scholarshipDescription": "In tutti gli anni del triennio scolastico ho ottenuto la borsa di studio per merito, riconoscimento assegnato agli studenti con risultati costanti e comportamento responsabile.",
     "scholarshipItems": [
-      "Rendimento continuo durante l'anno",
-      "Media scolastica elevata",
-      "Comportamento corretto e professionale",
-      "Impegno in attivita didattiche e progetti extra"
+      {
+        "text": "Rendimento continuo durante l'anno"
+      },
+      {
+        "text": "Media scolastica elevata"
+      },
+      {
+        "text": "Comportamento corretto e professionale"
+      },
+      {
+        "text": "Impegno in attivita didattiche e progetti extra"
+      }
     ],
     "outcomesTitle": "Competenze in uscita del diploma",
     "outcomesTags": [
@@ -87,7 +107,7 @@
     "softSkills": [
       {
         "title": "Leadership",
-        "description": "Guido attraverso l'esempio, assumendomi piena responsabilità delle mie azioni e delle decisioni prese."
+        "description": "Guido i gruppi di lavoro, assumendomi piena responsabilità delle mie azioni e delle decisioni prese."
       },
       {
         "title": "Gestione emotiva e autocontrollo",
@@ -296,6 +316,7 @@
     "phoneLabel": "Telefono",
     "certificationsLabel": "Certificazioni",
     "certificationsText": "Profilo Credly",
+    "cvButton": "Download Curriculum",
     "qrAriaLabel": "QR code per aprire il portfolio online",
     "qrLinkLabel": "Apri portfolio online",
     "qrAlt": "QR code per visitare il portfolio online",
@@ -309,5 +330,14 @@
     "toggleLabel": "Passa all'inglese",
     "current": "IT",
     "flagAlt": "Bandiera italiana"
+  },
+  "personalInfo": {
+    "name": "Mirko Andò",
+    "address": "Via Antonio Pacinotti, 73 - 95122 Catania, Italia",
+    "email": "mirko.ando2008@gmail.com",
+    "phone": "+39 329 631 8067",
+    "nationality": "Italiana",
+    "dateOfBirth": "01/08/2008"
+
   }
 }

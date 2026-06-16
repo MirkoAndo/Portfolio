@@ -1027,6 +1027,13 @@ h3 {
   border-color: var(--accent-color);
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.1rem;
+}
+
 .contact-visual {
   position: relative;
   display: grid;
