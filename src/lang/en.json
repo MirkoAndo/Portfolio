@@ -244,7 +244,7 @@
   "skills": {
     "kicker": "TECH STACK",
     "title": "Technical Skills",
-    "intro": "A concise view of the operational skills I use in projects, divided by languages and work environments.",
+    "intro": "A brief overview of the operational skills I use on projects, broken down by languages ​​and work environments, based on project evaluations, qualifications acquired, and confidence.",
     "scale": "Level scale: Base < 50% | Intermediate 50-69% | Advanced >= 70%",
     "softwareTitle": "Languages and software development",
     "softwareDescription": "Technologies used for backend development, web and data management.",
@@ -303,7 +303,9 @@
     "socialLabel": "GitHub"
   },
   "footer": {
-    "text": "©Copyright (c) 2026 Mirko Andò"
+    "text": "©Copyright (c) 2026 Mirko Andò",
+    "art4gdpr" : "I authorize the processing of personal data contained in my curriculum vitae in accordance with Law No. 196/2003, coordinated with Law No. 101/2018, and the EU Regulation 2016/679"
+
   },
   "language": {
     "toggleLabel": "Switch to Italian",
