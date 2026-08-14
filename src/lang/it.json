@@ -282,6 +282,18 @@
     "archiveCta": "Esplora archivio",
     "archiveAriaLabel": "Esplora archivio GitHub",
     "items": [
+{
+        "title": "Fbi FrontEnd - Complete Landing Page Test",
+        "description": "Una landing page investigativa interattiva che simula un'interfaccia di intelligenza artificiale per il profiling psicologico e la gestione di dossier classificati. Il progetto emula lo stile documentale delle agenzie di intelligence storiche per scopi di analisi e simulazione sperimentale.",
+        "tags": ["React", "Next.js", "Framer Motion", "Tailwind CSS"],
+        "imageAlt": "Logo FBI-AI Bureau Intelligence",
+        "imagePath": "src/vetrina/Fbi-FrontEnd.png",
+        "demoLabel": "LIVE DEMO",
+        "sourceLabel": "SOURCE",
+        "demoUnavailable": false,
+        "demoUrl": "https://fbi-frontend-test.vercel.app/",
+        "sourceUrl": "https://github.com/MirkoAndo/Fbi-FrontEnd-Test"
+      },
       {
         "title": "Quiz Inglese - Interattivo Web",
         "description": "Una piattaforma interattiva di quiz in lingua inglese basata sulla storia della Scuola Marconi-Mangano e sulle passate presentazioni educative. Progettato per migliorare le competenze linguistiche richieste nel progetto conoscitivo Erasmus 2025/2026.",

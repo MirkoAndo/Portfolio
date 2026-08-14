@@ -261,6 +261,18 @@
     "title": "Current Projects",
     "archiveCta": "Explore archive",
     "items": [
+{
+        "title": "Fbi FrontEnd - Complete Landing Page Test",
+        "description": "An interactive investigative landing page that simulates an AI interface for psychological profiling and classified dossier management. The project emulates the documentation style of historical intelligence agencies for analytical and experimental simulation purposes.",
+        "tags": ["React", "Next.js", "Framer Motion", "Tailwind CSS"],
+        "imageAlt": "FBI-AI Bureau Intelligence Logo",
+        "imagePath": "src/vetrina/Fbi-FrontEnd.png",
+        "demoLabel": "LIVE DEMO",
+        "sourceLabel": "SOURCE",
+        "demoUnavailable": false,
+        "demoUrl": "https://fbi-frontend-test.vercel.app/",
+        "sourceUrl": "https://github.com/MirkoAndo/Fbi-FrontEnd-Test"
+      },
       {
         "title": "English Quiz - Interactive Web",
         "description": "An interactive English quiz platform based on the history of the Marconi-Mangano School and previous educational presentations. Designed to improve language skills requested in the Erasmus 2025/2026 awareness project.",
