@@ -307,16 +307,16 @@
         "sourceUrl": "https://github.com/MirkoAndo/English-Legacy-Quiz"
       },
       {
-        "title": "Marconi-Cortex",
-        "description": "Un gestionale scolastico modulare, pensato per supportare ogni area operativa di un istituto formativo. Nasce dall'osservazione quotidiana di problemi reali: strumenti frammentati, flussi manuali, dati dispersi e poca visibilità.",
-        "tags": ["Python", "Html", "Css", "JavaScript"],
-        "imageAlt": "Logo Marconi-Cortex",
-        "imagePath": "src/vetrina/marconi-cortex-logoFull.png",
+        "title": "Pane-Hub",
+        "description": "Una piattaforma full-stack per la gestione di panifici, sviluppata per digitalizzare prenotazioni e operazioni quotidiane. Include un sistema di prenotazione online, dashboard amministrativa, gestione prodotti, autenticazione e controllo degli accessi, con persistenza dei dati tramite Supabase e PostgreSQL.",
+        "tags": ["Next.js", "TypeScript", "Supabase", "PostgreSQL"],
+        "imageAlt": "Logo PaneHub",
+        "imagePath": "src/vetrina/Pane-Hub-logoFull.png",
         "demoLabel": "LIVE DEMO",
         "sourceLabel": "SOURCE",
-        "demoUnavailable": true,
-        "demoUrl": "https://mirkoando.github.io/Marconi-Cortex/",
-        "sourceUrl": "https://github.com/MirkoAndo/Marconi-Cortex"
+        "demoUnavailable": false,
+        "demoUrl": "https://panehub.vercel.app/",
+        "sourceUrl": "https://github.com/MirkoAndo/PaneHub"
       }
     ]
   },
