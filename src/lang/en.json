@@ -285,18 +285,18 @@
         "demoUrl": "https://englishtest2026.netlify.app/",
         "sourceUrl": "https://github.com/MirkoAndo/English-Legacy-Quiz"
       },
-      {
-        "title": "Marconi-Cortex",
-        "description": "A modular school management system designed to support every operational area of a training institute. It was born from the daily observation of real problems: fragmented tools, manual flows, scattered data and poor visibility.",
-        "tags": ["Python", "Html", "Css", "JavaScript"],
-        "imageAlt": "Marconi-Cortex logo",
-        "imagePath": "src/vetrina/marconi-cortex-logoFull.png",
-        "demoLabel": "LIVE DEMO",
-        "sourceLabel": "SOURCE",
-        "demoUnavailable": true,
-        "demoUrl": "https://mirkoando.github.io/Marconi-Cortex/",
-        "sourceUrl": "https://github.com/MirkoAndo/Marconi-Cortex"
-      }
+    {
+      "title": "Pane-Hub",
+      "description": "A full-stack platform for bakery management, designed to digitize reservations and daily operations. It includes an online reservation system, administrative dashboard, product management, authentication and access control, with data persistence powered by Supabase and PostgreSQL.",
+      "tags": ["Next.js", "TypeScript", "Supabase", "PostgreSQL"],
+      "imageAlt": "PaneHub Logo",
+      "imagePath": "src/vetrina/Pane-Hub-logoFull.png",
+      "demoLabel": "LIVE DEMO",
+      "sourceLabel": "SOURCE",
+      "demoUnavailable": false,
+      "demoUrl": "https://panehub.vercel.app/",
+      "sourceUrl": "https://github.com/MirkoAndo/PaneHub"
+    }
     ]
   },
   "contact": {
